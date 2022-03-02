@@ -1,0 +1,18 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class practiceClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\Home\\Desktop\\Expleo Project\\Assignment\\Drivers\\geckodriver");
+		WebDriver driver = new FirefoxDriver(); 
+	    driver.get("https://www.youtube.com");
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Home\\Desktop\\Expleo Project\\Assignment\\Drivers\\chromedriver.exe");
+		WebDriver driver1 = new ChromeDriver();
+		driver1.get("https://www.google.co.uk");
+	}
+
+}

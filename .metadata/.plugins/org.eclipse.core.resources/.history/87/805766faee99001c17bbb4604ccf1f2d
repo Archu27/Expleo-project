@@ -1,0 +1,21 @@
+package com.ChallengingDom.testcases;
+
+import org.testng.annotations.BeforeTest;
+
+import com.ChallengingDom.base.TestBase;
+
+public class ChallengingDomPageTest extends TestBase{
+	
+	public ChallengingDomPageTest(){
+		super(); // to class the properties of super class testbase
+	}
+
+	
+	// Setup
+		@BeforeTest
+		public void setup() {
+			initialization();
+		}
+		
+		
+}

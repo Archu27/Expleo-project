@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-02T14:25:12 GMT" name="Suite1" finished-at="2022-03-02T14:25:29 GMT" duration-ms="16575">
+    <groups>
+    </groups>
+    <test started-at="2022-03-02T14:25:12 GMT" name="Smoke Test" finished-at="2022-03-02T14:25:29 GMT" duration-ms="16575">
+      <class name="com.ChallengingDom.testcases.ChallengingDomPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:12 GMT" name="setup" finished-at="2022-03-02T14:25:22 GMT" duration-ms="9844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatingTitleTest()[pri:1, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:22 GMT" name="validatingTitleTest" finished-at="2022-03-02T14:25:22 GMT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingTitleTest -->
+        <test-method signature="validateHeaderTest()[pri:2, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:22 GMT" name="validateHeaderTest" finished-at="2022-03-02T14:25:23 GMT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderTest -->
+        <test-method signature="validateBlueButtonTest()[pri:3, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:23 GMT" name="validateBlueButtonTest" finished-at="2022-03-02T14:25:24 GMT" duration-ms="1210" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The text of Blue button is not changing after click did not expect [bar] but found [bar]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The text of Blue button is not changing after click did not expect [bar] but found [bar]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at com.ChallengingDom.testcases.ChallengingDomPageTest.validateBlueButtonTest(ChallengingDomPageTest.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBlueButtonTest -->
+        <test-method signature="validateRedButtonTest()[pri:4, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:24 GMT" name="validateRedButtonTest" finished-at="2022-03-02T14:25:25 GMT" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRedButtonTest -->
+        <test-method signature="validateGreenButtonTest()[pri:5, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:25 GMT" name="validateGreenButtonTest" finished-at="2022-03-02T14:25:26 GMT" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGreenButtonTest -->
+        <test-method signature="validateTableHeadersTest()[pri:6, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:26 GMT" name="validateTableHeadersTest" finished-at="2022-03-02T14:25:26 GMT" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTableHeadersTest -->
+        <test-method signature="validateTableColumn()[pri:7, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:26 GMT" name="validateTableColumn" finished-at="2022-03-02T14:25:27 GMT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTableColumn -->
+        <test-method signature="validateTableRow()[pri:8, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:27 GMT" name="validateTableRow" finished-at="2022-03-02T14:25:27 GMT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTableRow -->
+        <test-method signature="validateEditTest()[pri:9, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:27 GMT" name="validateEditTest" finished-at="2022-03-02T14:25:27 GMT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditTest -->
+        <test-method signature="validateDeleteTest()[pri:10, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:27 GMT" name="validateDeleteTest" finished-at="2022-03-02T14:25:27 GMT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteTest -->
+        <test-method signature="validateCanvasTest1()[pri:11, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:27 GMT" name="validateCanvasTest1" finished-at="2022-03-02T14:25:28 GMT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCanvasTest1 -->
+        <test-method signature="validateCanvasTest2()[pri:12, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:28 GMT" name="validateCanvasTest2" finished-at="2022-03-02T14:25:28 GMT" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCanvasTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ChallengingDom.testcases.ChallengingDomPageTest@4567f35d]" started-at="2022-03-02T14:25:28 GMT" name="tearDown" finished-at="2022-03-02T14:25:29 GMT" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ChallengingDom.testcases.ChallengingDomPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

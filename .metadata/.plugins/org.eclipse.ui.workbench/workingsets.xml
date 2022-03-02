@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646065859830_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646065859924_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646082137681_3" label="Assignment" name="Assignment">
+<item elementID="=Assignment" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646085315855_4" label="seleniumjavaframework" name="seleniumjavaframework">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Assignment/Drivers/geckodriver.exe" type="1"/>
+<item elementID="=SeleniumJavaFramework" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646133818041_6" label="assignment" name="assignment">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Assignment/Drivers/chromedriver.exe" type="1"/>
+<item elementID="=Assignment" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ChallengingDOM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646065862882_2" label="Window Working Set" name="Aggregate for window 1646065862882"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646085320974_5" label="Multiple Working Sets" name="Aggregate:Assignment:seleniumjavaframework:">
+<workingSet IMemento.internal.id="Assignment"/>
+<workingSet IMemento.internal.id="seleniumjavaframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646150803988_8" label="Window Working Set" name="Aggregate for window 1646150803988"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646219088684_9" label="Multiple Working Sets" name="Aggregate:assignment:Assignment:">
+<workingSet IMemento.internal.id="assignment"/>
+<workingSet IMemento.internal.id="Assignment"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1646231336058_10" label="Multiple Working Sets" name="Aggregate:assignment:Assignment:seleniumjavaframework:">
+<workingSet IMemento.internal.id="assignment"/>
+<workingSet IMemento.internal.id="Assignment"/>
+<workingSet IMemento.internal.id="seleniumjavaframework"/>
+</workingSet>
+<mruList name="Assignment"/>
+<mruList name="assignment"/>
+</workingSetManager>

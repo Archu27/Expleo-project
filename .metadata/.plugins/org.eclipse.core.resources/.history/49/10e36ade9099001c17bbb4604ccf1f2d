@@ -1,0 +1,19 @@
+import org.testng.annotations.BeforeMethod;
+
+import com.ChallengingDom.base.TestBase;
+
+public class Testcases extends TestBase{
+	
+	public Testcases(){
+		super();
+		
+	}
+	
+	@BeforeMethod
+	public void setUp(){
+		initialization();
+			Testcases =new Testcases();
+			
+	}
+
+}
